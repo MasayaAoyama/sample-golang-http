@@ -7,7 +7,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	title := "v2.0 application"
+	title := "v3.0 application"
 
 	from := ""
 	if r.URL != nil {
